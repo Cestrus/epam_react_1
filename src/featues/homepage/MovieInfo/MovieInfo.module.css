@@ -1,0 +1,30 @@
+.container--movieInfo{
+	grid-area: movieInfo;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	/*border: 3px solid #000;*/
+	border-left: none;
+	box-sizing: border-box;
+	color: #f5deb3;
+}
+
+.movieImg, .movieTitle, .movieLikesStars, .movieDirector, .movieActors, .movieGenres, .movieDescription{
+	margin: 10px;
+}
+
+.movieImg{
+	align-self: center;
+}
+
+.movieTitle{
+	align-self: center;
+	font-weight: bold;
+}
+
+.movieLikes{
+	display: inline-block;
+	margin-right: 20px;
+}
+
